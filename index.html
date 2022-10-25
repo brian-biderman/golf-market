@@ -13,13 +13,18 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Quicksand:wght@300&family=Staatliches&display=swap" rel="stylesheet">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
     <header>
         <!--Logo golf-->
             <div class="logo-golf">
-                <img src="logo-golf.png" alt="Logo Golf Market">
+                <img src="imagenes/logo-golf.png" alt="Logo Golf Market">
             </div>
          <!--Fin Logo golf-->
 
@@ -27,11 +32,11 @@
          
             <nav class="menu-inicio">
                 <ul>
-                    <li><a href="index.html">Inicio</a> </li>
-                    <li><a href="palos.html">Palos</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                    <li><a href="fitting.html">Fitting</a> </li>
-                    <li><a href="contacto.html">Contacto</a> </li>
+                    <li class="animacion-menu"><a href="index.html">Inicio</a> </li>
+                    <li class="animacion-menu"><a href="palos.html">Palos</a></li>
+                    <li class="animacion-menu"><a href="faq.html">FAQ</a></li>
+                    <li class="animacion-menu"><a href="fitting.html">Fitting</a> </li>
+                    <li class="animacion-menu"><a href="contacto.html">Contacto</a> </li>
                 </ul>
             </nav>
           <!--Fin Menu-->
@@ -53,20 +58,28 @@
                 <h2 class="categorias-h2">Categorias</h2>
                
                <div class="categorias">
-                <div>
-                    <img src="Drivers.webp" alt="">
+                <div class="categorias-driver" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                    <img src="imagenes/Drivers.webp" alt="">
                     <p>Drivers</p>
                 </div>
-                <div>
-                    <img src="Hierros.webp" alt="">
+                <div class="categorias-driver" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                    <img src="imagenes/Hierros.webp" alt="">
                     <p>Hierros</p>
                 </div>
-                <div>
-                    <img src="Putter.webp" alt="">
+                <div class="categorias-driver" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                    <img src="imagenes/Putter.webp" alt="">
                     <p>Putters</p>
                 </div>
-                <div>
-                    <img src="Bolsas.webp" alt="">
+                <div class="categorias-driver" data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                    <img src="imagenes/Bolsas.webp" alt="">
                     <p>Bolsas</p>
                 </div>
             </div>
@@ -81,25 +94,27 @@
         <section>
                 <p class="p-principal">Las mejores marcas en un solo lugar</p>  
                 <h2 class="marcas-h2">Marcas</h2>
-                <div class="marcas">
-                <div>
-                    <img src="TaylorMade_logo.avif" alt="">
+                <div class="marcas" data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                <div class="box-marcas">
+                    <img src="imagenes/TaylorMade_logo.avif" alt="">
                     
                 </div>
-                <div>
-                    <img src="Titleist_logo.avif" alt="">
+                <div class="box-marcas">
+                    <img src="imagenes/Titleist_logo.avif" alt="">
                     
                 </div>
-                <div>
-                    <img src="Mizuno_logo.avif" alt="">
+                <div class="box-marcas">
+                    <img src="imagenes/Mizuno_logo.avif" alt="">
                     
                 </div>
-                <div>
-                    <img src="Ping-logo.avif" alt="">
+                <div class="box-marcas">
+                    <img src="imagenes/Ping-logo.avif" alt="">
                     
                 </div>
-                <div>
-                    <img src="Callaway_logo.avif" alt="">
+                <div class="box-marcas">
+                    <img src="imagenes/Callaway_logo.avif" alt="">
                     
                 </div>
             </div>
@@ -113,9 +128,9 @@
                     
                     <h2 class="mas-visto-h2">Lo mas visto</h2>
 
-                    <div class="mas-visto">
+                    <div class="mas-visto" data-aos="fade-up-left">
                     <div>
-                        <img src="hierros2.webp" alt="">
+                        <img src="imagenes/hierros2.webp" alt="">
                         <p>Hierros Mizuno</p>
                         <p id="rating">Rating ★★★★</p>
                         <p id="precio">$199</p>
@@ -123,7 +138,7 @@
                         
                     </div>
                     <div>
-                        <img src="Hierros1.avif" alt="">
+                        <img src="imagenes/Hierros1.avif" alt="">
                         <p>Hierros TaylorMade</p>
                         <p id="rating">Rating ★★★★</p>
                         <p id="precio">$199</p>
@@ -131,7 +146,7 @@
                         
                     </div>
                     <div>
-                        <img src="Driver1.webp" alt="">
+                        <img src="imagenes/Driver1.webp" alt="">
                         <p>Driver Callaway x9</p>
                         <p id="rating">Rating ★★★★</p>
                         <p id="precio">$199</p>
@@ -139,11 +154,11 @@
                         
                     </div>
                     <div>
-                        <img src="Bolsa1.webp" alt="">
+                        <img src="imagenes/Bolsa1.webp" alt="">
                         <p>Bolsa para palos</p>
                         <p id="rating">Rating ★★★★</p>
                         <p id="precio">$199</p>
-                        <input id="shop-now"type="button" value="SHOP NOW">   
+                        <input id="shop-now" type="button" value="SHOP NOW">   
                     
                     </div>
                 </div>
@@ -156,12 +171,12 @@
                     <p class="asesoramiento-p">Asesorate con los mejores profesionales para conseguir los mejores palos para tu nivel de juego</p>
                     <div class="asesoramiento">
                     <div id="fitting">
-                        <img src="fiting.webp" alt="">
+                        <img src="imagenes/fiting.webp" alt="">
                         <h4>Data Testing</h4>
                         <p>Our fitter will then choose a selection of different clubs that he thinks will improve your game.</p>
                     </div>
                     <div id="fitting">
-                        <img src="fiting2.webp" alt="">
+                        <img src="imagenes/fiting2.webp" alt="">
                         <h4>Analyze</h4>
                         <p>Our fitter will then choose a selection of different clubs that he thinks will improve your game.</p>
                     </div>
@@ -176,7 +191,7 @@
         <section class="footer-a">
        
              <div class="footer-logo">
-                <img src="logo-golf.png" alt="">
+                <img src="imagenes/logo-golf.png" alt="">
                 <p>TOP CLASS GOLF SOTRE</p>
             
             </div>
@@ -184,9 +199,9 @@
             <div class="footer-x">
                 <div class="redes">
                     <h3>SEGUINOS</h3>
-                    <a href=""><img src="logotipo-de-instagram.png" title="logotipo de instagram iconos" " alt="Logotipo de instagram iconos creados por Freepik - Flaticon"></a>
-                    <a href=""><img src="facebook.png" alt="Facebook iconos creados por pictogramer - Flaticon"></a>
-                    <a href=""><img src="gorjeo.png" alt="Gorjeo iconos creados por Roundicons - Flaticon"></a>
+                    <a href=""><img src="imagenes/logotipo-de-instagram.png" title="logotipo de instagram iconos" " alt="Logotipo de instagram iconos creados por Freepik - Flaticon"></a>
+                    <a href=""><img src="imagenes/facebook.png" alt="Facebook iconos creados por pictogramer - Flaticon"></a>
+                    <a href=""><img src="imagenes/gorjeo.png" alt="Gorjeo iconos creados por Roundicons - Flaticon"></a>
                 </div>
 
                 <div class="sign-up">
@@ -203,10 +218,10 @@
                 <H3>PRODUCTOS</H3> 
                 <nav>
                     <ul>
-                       <a href=""> <LI>DRIVERS</LI></a>
-                       <a href="">  <LI>HIERROS</LI></a>
-                        <a href="">  <LI>PUTTERS</LI></a>
-                            <a href="">  <LI>BOLSAS</LI></a>
+                        <a href="palos-driver.html#productos"> <li>DRIVERS</li></a>
+                       <a href="palos.html#productos">  <li>HIERROS</li></a>
+                        <a href="palos-putter.html#productos"> <li>PUTTERS</li></a>
+                            <a href="palos-bolsa.html#productos"> <li>BOLSAS</li></a>
 
                     </ul>
                 </nav>
@@ -223,6 +238,9 @@
 
     
     </footer>
-    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
