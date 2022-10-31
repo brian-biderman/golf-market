@@ -8,6 +8,7 @@
 
 
 
+
 .logo-golf img {
 
     height: 150px;
@@ -26,9 +27,32 @@ header{
     
     display: flex;
     align-items: flex-end;
+   
 
 
 
+}
+
+#foto-fondo{
+    background-image: url(imagenes/tigerbnfondo.png);
+    
+   background-size: auto;
+   background-repeat: no-repeat;
+   background-position:top;
+   height:750px;
+   
+}
+
+#fondo-normal h1{
+    color: #000000;
+    margin-top: 80px;
+    padding-top: 0px;
+
+
+}
+
+#fondo-normal p{
+    color: #000000;
 }
 
 .menu-inicio ul li {
@@ -41,7 +65,12 @@ header{
     margin-right: 10px;
     letter-spacing: 1px;
     
+    
 
+}
+
+.menu-inicio ul li a, .footer-productos ul a, .menu-palos ul a{
+    text-decoration: none;
 }
 
 :hover.animacion-menu{
@@ -61,32 +90,37 @@ header{
     
 }
 
-h1 {
+#h1-principal {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Staatliches', cursive;
     text-align: center;
-    font-size: 70px;
+    font-size: 110px;
     margin-top: 80px;
+    color: white;
+    padding-top: 290px;
+    margin-bottom: 0px;
 }
 
 
 .p-principal2 {
 
     font-family: 'Quicksand', sans-serif;
-    font-weight: lighter;
+    font-weight: bold;
     font-size: 22px;
     text-align: center;
     margin-top: -10px;
+    color: white;
 
 }
 
 .p-principal{
 
     font-family: 'Quicksand', sans-serif;
-    font-weight: lighter;
+    font-weight: bold;
     font-size: 35px;
     text-align: center;
-    margin-top: 160px;
+    margin-top: 10px;
+    color: white;
     
 }
 
@@ -106,7 +140,7 @@ h1 {
 
 }
 
-.categorias, .marcas, .mas-visto, .asesoramiento, .fitting-section{
+.categorias, #marcas, .mas-visto, .asesoramiento, .fitting-section{
     display: flex;
     
     justify-content: center;
@@ -122,6 +156,8 @@ h1 {
     height: 230px;
     width: 230px;
     background-color: black;
+    border-radius: 5px;
+    
     
 }
 
@@ -163,23 +199,25 @@ h1 {
     height: 100%;
     width: 100%;
     opacity: 0.8;
+    border-radius: 5px;
     
 }
 
-.marcas div,
+#marcas div,
 .mas-visto div {
     height: 200px;
     width: 200px;
     display: inline-block;
     border-color: black;
-    border-radius: 1px;
+    border-radius: 5px;
     border-style: solid;
     margin-left: 40px;
+    box-sizing:content-box;
 
 
 }
 
-:hover.box-marcas{
+:hover#box-marcas{
 
     transform: scale(1.1);
     box-shadow: 0px 0px 19px 4px rgba(0,0,0,0.41);
@@ -190,7 +228,7 @@ h1 {
 
 
 
-.marcas img,
+#marcas img,
 .mas-visto img {
     height: 200px;
     width: 200px;
@@ -362,7 +400,7 @@ footer {
 
 }
 
-.footer-x{
+#footer-x{
     
     height: 200px;
     width: 200p;
@@ -396,26 +434,24 @@ footer {
 
 }
 
-.redes {
-    width: 350px;
+#redes {
+    width: auto;
     height: auto;
-    
-
     display: inline-block;
  
 
 }
 
-.redes h3 {
+#redes h3 {
     display: inline-block;
     margin-right: 15px;
-    position: relative;
-    bottom: 10px;
+    
+    
 
 
 }
 
-.redes img {
+#redes img {
     width: 40px;
     height: 40px;
     margin-top: 15px;
@@ -597,6 +633,8 @@ footer {
 .navegacion-numeros {
     text-align: center;
     grid-column: 2/4;
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -612,7 +650,7 @@ footer {
 }
 .navegacion-numeros ul li a{text-decoration: none;}
 
-.titulo-productos {
+#titulo-productos {
     text-align: center;
     font-size: 40px;
     margin-top: 100px;
@@ -673,9 +711,9 @@ footer {
 
 .grid-container-faq {
     display: grid;
-    grid-template-rows: repeat(9, 100px);
+    grid-template-rows: repeat(9, auto);
     grid-column: repeat(1, 100px);
-    background-color: aqua;
+    
     gap: 10px;
     text-align: center;
 }
@@ -683,3 +721,24 @@ footer {
 .grid-item-faq {
     border: 1px solid black;
 }
+
+.preg-1 p{
+    
+    display: none;
+    
+    
+
+}
+
+:hover.preg-1 p{
+    display:initial;
+    
+}
+
+.grid-item-faq p{
+    font-size: 19px;
+}
+
+.grid-item-faq h4{font-size: 20px;}
+
+
