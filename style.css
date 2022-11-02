@@ -577,7 +577,7 @@ footer {
     gap: 12px;
     margin-top: 100px;
     margin-right: 10%;
-    
+   
 
 
 
@@ -655,6 +655,16 @@ footer {
     font-size: 40px;
     margin-top: 100px;
 
+}
+
+#titulo-productos-palos{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  
+  
+    
 }
 
 
@@ -740,5 +750,12 @@ footer {
 }
 
 .grid-item-faq h4{font-size: 20px;}
+
+
+#texto-faq{
+  
+  
+   font-weight: bold;
+}
 
 
