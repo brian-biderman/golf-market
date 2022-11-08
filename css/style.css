@@ -1,0 +1,671 @@
+.grid-container-faq {
+  display: grid;
+  grid-template-rows: repeat(9, auto);
+  grid-column: repeat(1, 100px);
+  gap: 10px;
+  text-align: center;
+}
+
+.grid-item-faq {
+  border: 1px solid black;
+}
+
+.preg-1 p {
+  display: none;
+}
+
+:hover.preg-1 p {
+  display: initial;
+}
+
+.grid-item-faq p {
+  font-size: 19px;
+}
+
+.grid-item-faq h4 {
+  font-size: 20px;
+}
+
+#texto-faq {
+  font-weight: bold;
+}
+
+.logo-golf {
+  height: 150px;
+  width: 150px;
+  background-color: aqua;
+}
+
+@media only screen and (max-width: 990px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50%;
+  }
+  .logo-golf {
+    margin-bottom: 10px;
+    margin-right: -25px;
+  }
+}
+.logo-golf img {
+  height: 150px;
+  width: 150px;
+}
+
+:hover.logo-golf {
+  transition: all 0.2s;
+  transform: scale(1.1);
+  position: relative;
+}
+
+header {
+  display: flex;
+  align-items: flex-end;
+}
+
+#foto-fondo {
+  background-image: url(/imagenes/tigerbnfondo.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 750px;
+}
+
+#fondo-normal h1 {
+  color: #000000;
+  margin-top: 80px;
+  padding-top: 0px;
+}
+
+#fondo-normal p {
+  color: #000000;
+}
+
+.menu-inicio ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  letter-spacing: 1px;
+}
+
+.menu-inicio ul li a, .footer-productos ul a, .menu-palos ul a {
+  text-decoration: none;
+}
+
+:hover.animacion-menu {
+  transition: all 0.2s;
+  transform: translateY(-5px);
+  position: relative;
+  text-decoration: underline;
+}
+
+.menu-inicio {
+  display: flex;
+  margin-left: 20%;
+}
+
+@media only screen and (max-width: 990px) {
+  .navbar-nav {
+    position: relative;
+    top: 60px;
+    right: 25px;
+  }
+}
+#h1-principal {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Staatliches", cursive;
+  text-align: center;
+  font-size: 110px;
+  margin-top: 80px;
+  color: white;
+  padding-top: 290px;
+  margin-bottom: 0px;
+}
+
+.p-principal2 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  margin-top: -10px;
+  color: white;
+}
+
+.p-principal {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+
+.categorias-h2,
+.marcas-h2,
+.mas-visto-h2 {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Staatliches", cursive;
+  text-align: left;
+  font-size: 30px;
+  margin-top: 100px;
+  letter-spacing: 2px;
+  margin-left: 60px;
+}
+
+.categorias, #marcas, .mas-visto, .asesoramiento, .fitting-section {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 990px) {
+  .categorias div {
+    margin-bottom: 10px;
+  }
+  .categorias-h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .marcas-h2 {
+    text-align: center;
+  }
+  #box-marcas {
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+  .mas-visto-h2 {
+    text-align: center;
+  }
+}
+.categorias div {
+  height: 230px;
+  width: 230px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+:hover.categorias-driver img {
+  opacity: 50%;
+}
+
+:hover.categorias-driver p {
+  transform: translateY(-80px);
+  transition: all 0.4s ease;
+  text-shadow: 1px 1px 1px #000000;
+  font-size: 50px;
+}
+
+.categorias p {
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  bottom: 92px;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Staatliches", cursive;
+  letter-spacing: 1px;
+}
+
+.categorias img {
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+#marcas div,
+.mas-visto div {
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  border-color: black;
+  border-radius: 5px;
+  border-style: solid;
+  margin-left: 40px;
+  box-sizing: content-box;
+}
+
+:hover#box-marcas {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 19px 4px rgba(0, 0, 0, 0.41);
+  border: none;
+}
+
+@media only screen and (max-width: 600px) {
+  :hover#box-marcas {
+    transform: scale(1.01);
+    box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.2);
+    border: none;
+  }
+}
+#marcas img,
+.mas-visto img {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
+
+.marcas h2 {
+  margin-top: 50px;
+}
+
+.marcas p {
+  margin-top: 50px;
+}
+
+.mas-visto div {
+  height: auto;
+  text-align: center;
+  padding: 15px;
+  margin-left: 60px;
+}
+
+.mas-visto p,
+.grid-item p {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Staatliches", cursive;
+  letter-spacing: 1px;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+#rating {
+  font-size: 15px;
+  margin-top: 0px;
+}
+
+#precio {
+  color: red;
+  font-size: 26px;
+  margin-top: 0px;
+}
+
+#shop-now {
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Staatliches", cursive;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 100px;
+}
+
+.asesoramiento-h2 {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Staatliches", cursive;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 180px;
+  letter-spacing: 2px;
+}
+
+.asesoramiento-p, .fitting-section-p {
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  margin-top: -5px;
+  margin-bottom: 60px;
+}
+
+.asesoramiento div {
+  height: 600px;
+  width: 300px;
+  display: inline-block;
+  background-color: white;
+}
+
+#fitting img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+#fitting h4,
+.video-fitting h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+#fitting p {
+  text-align: left;
+}
+
+/*------ Contacto -------------*/
+.contacto form {
+  text-align: center;
+}
+
+.contacto form label {
+  display: inline-block;
+  width: 180px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.contacto form input {
+  display: inline-block;
+  margin-left: 10px;
+  width: 320px;
+  margin-top: 25px;
+  height: 25px;
+}
+
+.contacto form textarea {
+  margin-left: 15px;
+  margin-top: 25px;
+}
+
+#boton-contacto {
+  margin-left: 190px;
+  margin-bottom: 90px;
+  background-color: wheat;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  padding-bottom: 25px;
+}
+
+/*------ Footer -------------*/
+footer {
+  height: auto;
+  color: black;
+}
+
+.footer-a {
+  width: auto;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#footer-x {
+  height: 200px;
+  width: 200p;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.footer-logo {
+  width: 310px;
+  height: auto;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: lighter;
+  font-size: 20PX;
+  display: inline-block;
+}
+
+.footer-logo p {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-a img {
+  width: 300px;
+  height: 300px;
+}
+
+#redes {
+  width: auto;
+  height: auto;
+  display: inline-block;
+}
+
+#redes h3 {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+#redes img {
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
+.sign-up {
+  display: inline-block;
+  width: auto;
+  height: 70px;
+  margin-top: 40px;
+}
+
+.sign-up form label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sign-up form input {
+  width: 150px;
+  margin-left: 5px;
+}
+
+.footer-productos {
+  height: 210px;
+  width: auto;
+  display: inline-block;
+}
+
+.footer-productos ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-productos ul li {
+  padding: 10px;
+  margin-left: 10px;
+  text-align: center;
+  font-weight: 1;
+}
+
+.footer-productos h3 {
+  text-align: center;
+  font-weight: normal;
+  font-weight: bolder;
+}
+
+/*------ Pagina Inicio con Foto para ingresar -------------*/
+.pagina1 {
+  background-image: url(imagenes/tigerbnfondo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pagina1 h1 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Staatliches", cursive;
+  text-align: center;
+  font-size: 100px;
+  margin-top: 250px;
+}
+
+.ingresar {
+  height: 20px;
+  width: 120px;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  margin-left: 45%;
+  position: relative;
+  bottom: 50px;
+  border-radius: 10px;
+}
+
+.ingresar a {
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Staatliches", cursive;
+}
+
+/*------ Pagina Inicio con Foto para ingresar ------------ */
+/*------ Pagina PRODUCTOS ------------ */
+.grid-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 100px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 100px;
+  margin-right: 10%;
+}
+
+@media only screen and (max-width: 650px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid-item {
+    width: 300px;
+    text-align: center;
+  }
+}
+.grid-item {
+  text-align: center;
+  padding: 10px;
+}
+
+.grid-item img {
+  height: 200px;
+  width: 200px;
+}
+
+.menu-palos {
+  grid-row: 1/5;
+}
+
+.grid-item input {
+  margin-bottom: 10px;
+}
+
+.menu-palos ul {
+  list-style: none;
+  font-size: 25px;
+  padding: 0px;
+}
+
+.menu-palos ul li {
+  padding: 20px;
+}
+
+.borde-producto {
+  border: 1px solid black;
+}
+
+.navegacion-numeros {
+  text-align: center;
+  grid-column: 2/4;
+  display: flex;
+  justify-content: center;
+}
+
+.navegacion-numeros ul {
+  padding-inline-start: 40px;
+}
+
+.navegacion-numeros ul li {
+  display: inline;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.navegacion-numeros ul li a {
+  text-decoration: none;
+}
+
+#titulo-productos {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 100px;
+}
+
+#titulo-productos-palos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/*------ FIN Pagina PRODUCTOS ------------ */
+/*------ Pagina FITTING ------------ */
+.fitting-section-h2 {
+  margin-top: 90px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.video-fitting {
+  height: auto;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 90px;
+  align-items: center;
+}
+
+.video-fitting p, .fitting-p {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.fitting-p {
+  width: 300px;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+}
+
+/*------ FIN Pagina PRODUCTOS ------------ */
+/*------ INICIO Pagina FAq ------------ */
+.grid-container-faq {
+  display: grid;
+  grid-template-rows: repeat(9, auto);
+  grid-column: repeat(1, 100px);
+  gap: 10px;
+  text-align: center;
+}
+
+.grid-item-faq {
+  border: 1px solid black;
+}
+
+.preg-1 p {
+  display: none;
+}
+
+:hover.preg-1 p {
+  display: initial;
+}
+
+.grid-item-faq p {
+  font-size: 19px;
+}
+
+.grid-item-faq h4 {
+  font-size: 20px;
+}
+
+#texto-faq {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
