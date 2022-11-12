@@ -1,0 +1,114 @@
+.header{
+    
+    display: flex;
+    align-items: flex-end;
+
+}
+
+
+.logo-golf {
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+
+    img {
+
+        height: 150px;
+        width: 150px;
+       
+    }
+
+    &:hover.logo-golf{
+
+        transition: all .2s;
+        transform:scale(1.1);
+        position: relative;
+        
+    
+    }
+
+    
+   
+}
+
+
+
+@media only screen and (max-width: 500px){
+  
+
+   header{
+    display: flex;
+    flex-direction: column;
+    padding-right: 50%;
+    padding-left: 50%;
+    align-items: center;
+    
+   }
+
+   .logo-golf{
+    margin-bottom: 10px;
+    
+   }
+
+   
+
+  
+}
+
+
+
+
+.footer-productos ul a, .menu-palos ul a{
+    text-decoration: none;
+}
+
+:hover.animacion-menu{
+   
+    transition: all .2s;
+    transform:translateY(-5px);
+    position: relative;
+    text-decoration: underline;
+    
+    
+}
+
+.menu-inicio {
+    display: flex;
+    margin-left: 20%;
+
+     ul {
+             li {
+
+                list-style-type: none;
+                display: inline-block;
+                padding-left: 30px;
+                padding-right: 30px;
+                margin-left: 10px;
+                margin-right: 10px;
+                letter-spacing: 1px;
+
+
+                        a{
+                            text-decoration: none;
+                        }
+                
+            
+        
+        }
+     }
+    
+    
+}
+
+
+
+@media only screen and (max-width:990px){
+    .navbar-nav{ 
+        position: relative;
+        top: 60px;
+        right: 25px;
+        
+
+    }
+}
+

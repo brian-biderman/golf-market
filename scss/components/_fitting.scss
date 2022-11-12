@@ -1,0 +1,49 @@
+/*------ Pagina FITTING ------------ */
+
+.fitting-section-h2 {
+    margin-top: 90px;
+    text-align: center;
+    font-size: 50px;
+}
+
+@media only screen and (max-width:500px){
+
+    .fitting-section{
+        margin-bottom: 35px;
+
+    #fitting {
+
+        margin-bottom: 30px;
+
+    }    
+    }
+    
+}
+
+.video-fitting {
+    height: auto;
+    width: 400px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+    margin-bottom: 90px;
+    align-items: center;
+
+}
+
+.video-fitting p, .fitting-p{
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+.fitting-p{
+    width: 300px;
+}
+
+.video{
+
+    display: flex;
+    justify-content: center;
+    
+}

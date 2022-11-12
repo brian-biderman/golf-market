@@ -1,128 +1,25 @@
 @import '../scss/components/faq';
-
-.logo-golf {
-    height: 150px;
-    width: 150px;
-    background-color: aqua;
-   
-
-}
-
-@media only screen and (max-width: 990px){
-  
-
-   header{
-    display: flex;
-    flex-direction: column;
-    padding-right: 50%;
-    
-   }
-
-   .logo-golf{
-    margin-bottom: 10px;
-    margin-right: -25px;
-   }
-
-   
-
-  
-}
+@import '../scss/components/fitting';
+@import '../scss/components/header';
+@import '../scss/components/main';
+@import '../scss/components/footer';
+@import '../scss/components/contacto';
 
 
-
-
-.logo-golf img {
-
-    height: 150px;
-    width: 150px;
-   
-}
-
-:hover.logo-golf{
-
-    transition: all .2s;
-    transform:scale(1.1);
-    position: relative;
-    
-
-}
-header{
-    
-    display: flex;
-    align-items: flex-end;
-   
-
-
-
-}
 
 #foto-fondo{
-   background-image:url(/imagenes/tigerbnfondo.png);
-    
-   background-size: auto;
-   background-repeat: no-repeat;
-   background-position:top;
-   height:750px;
+    background-image:url(/imagenes/tigerbnfondo.png);
+     
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position:top;
+    height:750px;
+
    
-}
-
-#fondo-normal h1{
-    color: #000000;
-    margin-top: 80px;
-    padding-top: 0px;
-
-
-}
-
-#fondo-normal p{
-    color: #000000;
-}
-
-.menu-inicio ul li {
-
-    list-style-type: none;
-    display: inline-block;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-    letter-spacing: 1px;
     
-    
+ }
 
-}
-
-.menu-inicio ul li a, .footer-productos ul a, .menu-palos ul a{
-    text-decoration: none;
-}
-
-:hover.animacion-menu{
-   
-    transition: all .2s;
-    transform:translateY(-5px);
-    position: relative;
-    text-decoration: underline;
-    
-    
-}
-
-.menu-inicio {
-    display: flex;
-    margin-left: 20%;
-    
-}
-
-@media only screen and (max-width:990px){
-    .navbar-nav{ 
-        position: relative;
-        top: 60px;
-        right: 25px;
-        
-
-    }
-}
-
-#h1-principal {
+ #h1-principal {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Staatliches', cursive;
     text-align: center;
@@ -158,6 +55,99 @@ header{
 
 
 
+
+@media only screen and (max-width:990px){
+
+    .p-principal2 {
+
+    display: none;
+        
+       
+    
+    }
+   
+    
+    
+    .p-principal{
+    
+       
+        font-size: 25px;
+       
+        
+    }
+
+    #foto-fondo{
+        background-image:url(/imagenes/tigerbnfondo.png);
+         
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:top;
+        height:400px;
+    
+     }
+
+     #h1-principal {
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Staatliches', cursive;
+        text-align: center;
+        font-size: 70px;
+        margin-top: 80px;
+        color: white;
+        padding-top: 150px;
+        margin-bottom: 0px;
+    }
+
+
+}
+
+.p-principal-marcas{
+
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 12  0px;
+    color: black;
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+    .p-principal-marcas{
+
+        font-size: 25px;
+        margin-top: 40px;
+        font-weight: bolder;
+    
+    }
+
+    .marcas-h2{
+        margin-top: 10px;
+    }
+
+       
+        
+
+    }
+
+
+ 
+ #fondo-normal h1{
+     color: #000000;
+     margin-top: 80px;
+     padding-top: 0px;
+ 
+ 
+ }
+ 
+ #fondo-normal p{
+     color: #000000;
+ }
+
+
+
+
+
 .categorias-h2,
 .marcas-h2,
 .mas-visto-h2 {
@@ -172,6 +162,15 @@ header{
 
 }
 
+@media only screen and (max-width:500px){
+    .categorias-h2,
+    .marcas-h2,
+    .mas-visto-h2 {
+        margin-left: 0px;
+    }
+
+}
+
 .categorias, #marcas, .mas-visto, .asesoramiento, .fitting-section{
     display: flex;
     
@@ -183,10 +182,11 @@ header{
 
 }
 
-@media only screen and (max-width:990px){
+@media only screen and (max-width:500px){
 
     .categorias div {
         margin-bottom: 10px;
+        margin-top: 10px;
     }
 
     .categorias-h2{
@@ -199,8 +199,8 @@ header{
 
     #box-marcas{
 
-        margin-bottom: 10px;
-        margin-left:0px;
+        margin-bottom:10px;
+        margin-right:40px;
     
         
     }
@@ -326,6 +326,13 @@ header{
     margin-left: 60px;
 }
 
+@media only screen and (max-width:600px){
+
+    .mas-visto div{margin-right:60px;
+    margin-bottom: 10px;}
+
+}
+
 .mas-visto p,
 .grid-item p {
     font-weight: bold;
@@ -409,237 +416,21 @@ header{
 }
 
 
-/*------ Contacto -------------*/
-.contacto form {
-    text-align: center;
-}
-
-.contacto form label {
-    display: inline-block;
-    width: 180px;
-
-    font-size: 20px;
-    font-weight: bold;
-    text-align: justify;
-
-
-}
-
-.contacto form input {
-    display: inline-block;
-    margin-left: 10px;
-    width: 320px;
-    margin-top: 25px;
-    height: 25px;
-
-
-}
-
-.contacto form textarea {
-    margin-left: 15px;
-    margin-top: 25px;
-}
-
-#boton-contacto {
-    margin-left: 190px;
-    margin-bottom: 90px;
-    background-color: wheat;
-    font-size: 20px;
-    color: black;
-    font-weight: bold;
-    border-radius: 5px;
-    padding-bottom: 25px;
-
-
-}
 
 
 
 
-
-/*------ Footer -------------*/
-footer {
-
-    
-    height: auto;
-    color: black;
-}
-
-.footer-a {
-    width: auto;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-
-}
-
-#footer-x{
-    
-    height: 200px;
-    width: 200p;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-.footer-logo {
-
-    width: 310px;
-    height: auto;
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: lighter;
-    font-size: 20PX;
-    display: inline-block;
-
-}
-
-.footer-logo p {
-    display: flex;
-    flex-direction: column;
-}
-
-.footer-a img {
-
-    width: 300px;
-    height: 300px;
-
-
-}
-
-#redes {
-    width: auto;
-    height: auto;
-    display: inline-block;
- 
-
-}
-
-#redes h3 {
-    display: inline-block;
-    margin-right: 15px;
+.star-icon{
+    width: 20px;
     
     
-
-
 }
 
-#redes img {
-    width: 40px;
-    height: 40px;
-    margin-top: 15px;
-    margin-left: 25px;
-
-}
-
-.sign-up {
-    display: inline-block;
-    width: auto;
-    height: 70px;
-    margin-top: 40px;
-  
-   
-
-
-}
-
-.sign-up form label {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.sign-up form input {
-    width: 150px;
-    margin-left: 5px;
+:hover.star-icon{
+    fill: rgb(255, 4, 0);
 }
 
 
-.footer-productos {
-    height: 210px;
-    width: auto;
-
-    display: inline-block;
-    
-    
-
-  
-
-}
-
-.footer-productos ul {
-    list-style-type: none;
-    padding: 0;
-
-}
-
-.footer-productos ul li {
-    padding: 10px;
-    margin-left: 10px;
-    text-align: center;
-    font-weight: 1;
-
-
-}
-
-.footer-productos h3 {
-    text-align: center;
-    font-weight: normal;
-    font-weight: bolder;
-}
-
-
-
-
-
-
-
-
-
-
-
-/*------ Pagina Inicio con Foto para ingresar -------------*/
-.pagina1 {
-    background-image: url(imagenes/tigerbnfondo.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
-
-.pagina1 h1 {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Staatliches', cursive;
-    text-align: center;
-    font-size: 100px;
-    margin-top: 250px;
-    
-}
-
-.ingresar {
-    height: 20px;
-    width: 120px;
-    background-color: white;
-    text-align: center;
-    padding: 10px;
-    margin-left: 45%;
-    position: relative;
-    bottom: 50px;
-    border-radius: 10px;
-
-}
-
-.ingresar a {
-    text-decoration: none;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Staatliches', cursive;
-}
-
-/*------ Pagina Inicio con Foto para ingresar ------------ */
 
 /*------ Pagina PRODUCTOS ------------ */
 
@@ -659,6 +450,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-right: 0;
        
         
        
@@ -762,42 +554,6 @@ footer {
 
 /*------ FIN Pagina PRODUCTOS ------------ */
 
-/*------ Pagina FITTING ------------ */
-
-.fitting-section-h2 {
-    margin-top: 90px;
-    text-align: center;
-    font-size: 50px;
-}
-
-
-.video-fitting {
-    height: auto;
-    width: 400px;
-   display: flex;
-   justify-content: center;
-   flex-direction: column;
-    margin-bottom: 90px;
-    align-items: center;
-
-}
-
-.video-fitting p, .fitting-p{
-    margin-top: 15px;
-    text-align: center;
-
-}
-
-.fitting-p{
-    width: 300px;
-}
-
-.video{
-
-    display: flex;
-    justify-content: center;
-    
-}
 
 
 

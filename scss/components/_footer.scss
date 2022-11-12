@@ -1,0 +1,170 @@
+footer {
+
+    
+    height: auto;
+    color: black;
+}
+
+.footer-a {
+    width: auto;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .footer-logo {
+
+        width: 310px;
+        height: auto;
+        text-align: center;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: lighter;
+        font-size: 20PX;
+        display: inline-block;
+
+         p {
+            display: flex;
+            flex-direction: column;
+        }
+        
+         img {
+        
+            width: 300px;
+            height: 300px;
+            @media only screen and (max-width:500px){
+
+            width: 150px;
+            height: 150px;
+            
+
+            }
+        
+        
+        }
+    
+    }
+
+
+
+}
+
+#footer-x{
+    
+    height: 200px;
+    width: 200p;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    #redes {
+        width: auto;
+        height: auto;
+        display: inline-block;
+
+       
+
+        h3 {
+            display: inline-block;
+            margin-right: 15px;
+
+            @media only screen and (max-width:500px){
+
+                margin-left: 15px;
+                margin-top: 20px;
+
+            }
+        
+        }
+         img {
+            width: 40px;
+            height: 40px;
+            margin-left: 25px;
+        
+        }
+     
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.sign-up {
+    display: inline-block;
+    width: auto;
+    height: 80px;
+    margin-top: 40px;
+
+    @media only screen and (max-width:500px){
+        
+        text-align: center;
+        padding: 5px;
+
+    }
+
+
+        
+    
+
+    form label {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    form input {
+        width: 150px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+  
+   
+
+
+}
+
+
+
+
+.footer-productos {
+    height: 210px;
+    width: auto;
+
+    display: inline-block;
+
+     ul {
+        list-style-type: none;
+        padding: 0;
+
+        li {
+            padding: 10px;
+            margin-left: 10px;
+            text-align: center;
+            font-weight: 1;
+        
+        
+        }
+    
+    }
+
+     h3 {
+        text-align: center;
+        font-weight: normal;
+        font-weight: bolder;
+    }
+    
+
+  
+
+}
+
+
+
+
