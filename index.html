@@ -28,14 +28,71 @@
     <header>
         <!--Logo golf-->
             <div class="logo-golf">
+                
               <a href="index.html"> <img src="imagenes/logo-golf.png" alt="Logo Golf Market"></a> 
             </div>
          <!--Fin Logo golf-->
          
          <!--Logo Carrito-->        
          <div class="logo-carrito">
-            <a href=""><img src="imagenes/shopping-cart.png" alt=""> </a>
-         </div>     
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <span class="badge rounded-pill bg-danger">
+                    2+
+                </span> <img src="imagenes/shopping-cart.png" alt="">
+            </button> 
+            
+         </div> 
+             
+         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Resumen Compra</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Descripcion</th>
+                            <th scope="col">Precio</th>
+                            
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            
+                            <td>Hierros Callaway set x 12</td>
+                            <td>$1.000</td>
+                            
+                          </tr>
+                          <tr>
+                            
+                            <td>Bolsa Palos</td>
+                            <td>$1.000</td>
+                            
+                          </tr>
+                          
+                          <tr>
+                            <th scope="row" class="table-dark">Subtotal</th>
+                            <td class="table-dark">$2.000</td>
+                            
+                          </tr>
+                        </tbody>
+                      </table>
+                
+                  
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Seguir comprando</button>
+                  <button type="button" class="btn btn-primary">Checkout</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Fin logo Carrito-->
 
 
          <!--Menu-->
