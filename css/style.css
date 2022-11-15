@@ -305,7 +305,7 @@ footer {
   }
 }
 #foto-fondo {
-  background-image: url(/imagenes/tigerbnfondo.png);
+  background-image: url(../imagenes/tigerbnfondo.png);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: top;
