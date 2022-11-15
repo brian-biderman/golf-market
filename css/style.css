@@ -272,7 +272,8 @@ footer {
   padding: 10px;
   margin-left: 10px;
   text-align: center;
-  font-weight: 1;
+  font-weight: 500;
+  color: blue;
 }
 .footer-productos h3 {
   text-align: center;
