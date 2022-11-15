@@ -36,3 +36,48 @@
   
    font-weight: bold;
 }
+
+
+/*------ INICIO Pagina FAq ------------ */
+
+
+
+
+.grid-container-faq {
+    display: grid;
+    grid-template-rows: repeat(9, auto);
+    grid-column: repeat(1, 100px);
+    
+    gap: 10px;
+    text-align: center;
+}
+
+.grid-item-faq {
+    border: 1px solid black;
+}
+
+.preg-1 p{
+    
+    display: none;
+    
+    
+
+}
+
+:hover.preg-1 p{
+    display:initial;
+    
+}
+
+.grid-item-faq p{
+    font-size: 19px;
+}
+
+.grid-item-faq h4{font-size: 20px;}
+
+
+#texto-faq{
+  
+  
+   font-weight: bold;
+}
