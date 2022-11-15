@@ -81,8 +81,6 @@
 .video-fitting {
   height: auto;
   width: 400px;
-  display: flex;
-  justify-content: center;
   flex-direction: column;
   margin-bottom: 90px;
   align-items: center;
@@ -95,11 +93,6 @@
 
 .fitting-p {
   width: 300px;
-}
-
-.video {
-  display: flex;
-  justify-content: center;
 }
 
 .header {
@@ -337,6 +330,11 @@ footer {
     margin-bottom: 5px;
   }
 }
+#titulo-productos-palos, .navegacion-numeros, .categorias, #marcas, .mas-visto, .asesoramiento, .fitting-section, .video-fitting, .video {
+  display: flex;
+  justify-content: center;
+}
+
 #foto-fondo {
   background-image: url(../imagenes/tigerbnfondo.png);
   background-size: auto;
@@ -448,8 +446,6 @@ footer {
   }
 }
 .categorias, #marcas, .mas-visto, .asesoramiento, .fitting-section {
-  display: flex;
-  justify-content: center;
   justify-content: space-around;
   flex-wrap: wrap;
 }
@@ -701,8 +697,6 @@ footer {
 .navegacion-numeros {
   text-align: center;
   grid-column: 2/4;
-  display: flex;
-  justify-content: center;
 }
 
 .navegacion-numeros ul {
@@ -727,8 +721,6 @@ footer {
 }
 
 #titulo-productos-palos {
-  display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   margin-top: 20px;
 }

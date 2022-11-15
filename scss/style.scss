@@ -4,6 +4,7 @@
 @import '../scss/components/main';
 @import '../scss/components/footer';
 @import '../scss/components/contacto';
+@import '../scss/base/_extends';
 
 
 
@@ -172,10 +173,11 @@
 }
 
 .categorias, #marcas, .mas-visto, .asesoramiento, .fitting-section{
-    display: flex;
-    justify-content: center;
+    
+    
     justify-content: space-around;
     flex-wrap: wrap;
+    @extend %flexbox;
     
     
 
@@ -470,9 +472,6 @@
 }
    
 
-
-
-
 .grid-item {
 
     text-align: center;
@@ -518,8 +517,7 @@
 .navegacion-numeros {
     text-align: center;
     grid-column: 2/4;
-    display: flex;
-    justify-content: center;
+    @extend %flexbox;
 
 }
 
@@ -543,8 +541,7 @@
 }
 
 #titulo-productos-palos{
-  display: flex;
-  justify-content: center;
+  @extend %flexbox;
   flex-wrap: wrap;
   margin-top: 20px;
   

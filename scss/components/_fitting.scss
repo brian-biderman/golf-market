@@ -23,8 +23,7 @@
 .video-fitting {
     height: auto;
     width: 400px;
-   display: flex;
-   justify-content: center;
+   @extend %flexbox;
    flex-direction: column;
     margin-bottom: 90px;
     align-items: center;
@@ -43,7 +42,6 @@
 
 .video{
 
-    display: flex;
-    justify-content: center;
+    @extend %flexbox;
     
 }
