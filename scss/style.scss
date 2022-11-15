@@ -24,12 +24,13 @@
  #h1-principal {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Staatliches', cursive;
-    text-align: center;
-    font-size: 110px;
     margin-top: 80px;
     color: white;
     padding-top: 290px;
     margin-bottom: 0px;
+    @include font-align(110px,center)
+        
+    
     
    
 }
@@ -39,10 +40,10 @@
 
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
-    font-size: 22px;
-    text-align: center;
+    
     margin-top: -10px;
     color: white;
+    @include font-align(22px,center)
 
 }
 
@@ -50,10 +51,10 @@
 
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
-    font-size: 35px;
-    text-align: center;
+    
     margin-top: 10px;
     color: white;
+    @include font-align(35px,center)
     
 }
 
@@ -93,12 +94,12 @@
      #h1-principal {
         font-family: 'Montserrat', sans-serif;
         font-family: 'Staatliches', cursive;
-        text-align: center;
-        font-size: 70px;
+        
         margin-top: 80px;
         color: white;
         padding-top: 150px;
         margin-bottom: 0px;
+        @include font-align(70px,center)
     }
 
 
@@ -108,10 +109,10 @@
 
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
-    font-size: 35px;
-    text-align: center;
+    
     margin-top: 100px;
     color: black;
+    @include font-align(35px,center)
     
 }
 
@@ -157,11 +158,11 @@
 .mas-visto-h2 {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Staatliches', cursive;
-    text-align: left;
-    font-size: 30px;
+    
     margin-top: 100px;
     letter-spacing: 2px;
     margin-left: 60px;
+    @include font-align(30px,left)
 
 
 }
@@ -251,8 +252,7 @@
 
 
 .categorias p {
-    font-size: 40px;
-    text-align: center;
+    
     position: relative;
     bottom: 92px;
     color: white;
@@ -260,6 +260,7 @@
     font-family: 'Montserrat', sans-serif;
     font-family: 'Staatliches', cursive;
     letter-spacing: 1px;
+    @include font-align(40px,center)
 
 }
 
@@ -378,10 +379,10 @@
 .asesoramiento-h2 {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Staatliches', cursive;
-    text-align: center;
-    font-size: 50px;
+    
     margin-top: 180px;
     letter-spacing: 2px;
+    @include font-align(50px,center)
 
 }
 
@@ -389,10 +390,10 @@
 
     font-family: 'Quicksand', sans-serif;
     font-weight: bolder;
-    font-size: 20px;
-    text-align: center;
+    
     margin-top: -5px;
     margin-bottom: 60px;
+    @include font-align(20px,center)
 
 
 }
@@ -549,9 +550,9 @@
 
 
 #titulo-productos {
-    text-align: center;
-    font-size: 40px;
+    
     margin-top: 100px;
+    @include font-align(40px,center)
 
 }
 

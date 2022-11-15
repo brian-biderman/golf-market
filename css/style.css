@@ -347,30 +347,30 @@ footer {
 #h1-principal {
   font-family: "Montserrat", sans-serif;
   font-family: "Staatliches", cursive;
-  text-align: center;
-  font-size: 110px;
   margin-top: 80px;
   color: white;
   padding-top: 290px;
   margin-bottom: 0px;
+  font-size: 110px;
+  text-align: center;
 }
 
 .p-principal2 {
   font-family: "Quicksand", sans-serif;
   font-weight: bold;
-  font-size: 22px;
-  text-align: center;
   margin-top: -10px;
   color: white;
+  font-size: 22px;
+  text-align: center;
 }
 
 .p-principal {
   font-family: "Quicksand", sans-serif;
   font-weight: bold;
-  font-size: 35px;
-  text-align: center;
   margin-top: 10px;
   color: white;
+  font-size: 35px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 990px) {
@@ -390,21 +390,21 @@ footer {
   #h1-principal {
     font-family: "Montserrat", sans-serif;
     font-family: "Staatliches", cursive;
-    text-align: center;
-    font-size: 70px;
     margin-top: 80px;
     color: white;
     padding-top: 150px;
     margin-bottom: 0px;
+    font-size: 70px;
+    text-align: center;
   }
 }
 .p-principal-marcas {
   font-family: "Quicksand", sans-serif;
   font-weight: bold;
-  font-size: 35px;
-  text-align: center;
   margin-top: 100px;
   color: black;
+  font-size: 35px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
@@ -432,11 +432,11 @@ footer {
 .mas-visto-h2 {
   font-family: "Montserrat", sans-serif;
   font-family: "Staatliches", cursive;
-  text-align: left;
-  font-size: 30px;
   margin-top: 100px;
   letter-spacing: 2px;
   margin-left: 60px;
+  font-size: 30px;
+  text-align: left;
 }
 
 @media only screen and (max-width: 500px) {
@@ -489,8 +489,6 @@ footer {
 }
 
 .categorias p {
-  font-size: 40px;
-  text-align: center;
   position: relative;
   bottom: 92px;
   color: white;
@@ -498,6 +496,8 @@ footer {
   font-family: "Montserrat", sans-serif;
   font-family: "Staatliches", cursive;
   letter-spacing: 1px;
+  font-size: 40px;
+  text-align: center;
 }
 
 .categorias img {
@@ -595,19 +595,19 @@ footer {
 .asesoramiento-h2 {
   font-family: "Montserrat", sans-serif;
   font-family: "Staatliches", cursive;
-  text-align: center;
-  font-size: 50px;
   margin-top: 180px;
   letter-spacing: 2px;
+  font-size: 50px;
+  text-align: center;
 }
 
 .asesoramiento-p, .fitting-section-p {
   font-family: "Quicksand", sans-serif;
   font-weight: bolder;
-  font-size: 20px;
-  text-align: center;
   margin-top: -5px;
   margin-bottom: 60px;
+  font-size: 20px;
+  text-align: center;
 }
 
 .asesoramiento div {
@@ -710,9 +710,9 @@ footer {
 }
 
 #titulo-productos {
-  text-align: center;
-  font-size: 40px;
   margin-top: 100px;
+  font-size: 40px;
+  text-align: center;
 }
 
 #titulo-productos-palos {
