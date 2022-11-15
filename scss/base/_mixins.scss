@@ -5,3 +5,10 @@
     
 }
 
+@mixin font-align ($font-size,$text-align){
+
+    
+    font-size: $font-size;
+    text-align: $text-align;
+    
+}
