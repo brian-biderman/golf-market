@@ -5,6 +5,7 @@
 @import '../scss/components/footer';
 @import '../scss/components/contacto';
 @import '../scss/base/_extends';
+@import '../scss/base/_mixins';
 
 
 
@@ -477,18 +478,29 @@
     text-align: center;
     padding: 10px;
 
+    img {
+        height: 200px;
+        width: 200px;
+    
+    }
+
 }
 
-.grid-item img {
-    height: 200px;
-    width: 200px;
 
-
-}
 
 .menu-palos {
 
     grid-row: 1/5;
+
+    ul {
+        list-style: none;
+        font-size: 25px;
+        padding: 0px;
+            
+            li {
+            padding: 20px;
+        }
+    }
 
 
 
@@ -500,16 +512,6 @@
 
 
 
-.menu-palos ul {
-    list-style: none;
-    font-size: 25px;
-    padding: 0px;
-}
-
-.menu-palos ul li {
-    padding: 20px;
-}
-
 .borde-producto {
     border: 1px solid black;
 }
@@ -519,19 +521,27 @@
     grid-column: 2/4;
     @extend %flexbox;
 
-}
+    ul{
+        padding-inline-start: 40px;
 
-.navegacion-numeros ul{padding-inline-start: 40px;}
+        li{
+            display: inline;
+            font-size: 20px;
+            font-weight: bold;
+            letter-spacing: 10px;
 
-.navegacion-numeros ul li{
-    display: inline;
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 10px;
+            a{
+                text-decoration: none;}
     
     
+    
+    }
+
+    }
+
 }
-.navegacion-numeros ul li a{text-decoration: none;}
+
+
 
 #titulo-productos {
     text-align: center;
